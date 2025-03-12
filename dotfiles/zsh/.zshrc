@@ -16,14 +16,6 @@ ZSH_THEME="lambda"
 
 
 
-
-#fichier source pour tous mes aliases
-source ~/.config/zsh/aliases/aliases.zsh
-
-
-#fichier source pour oh-my-zsh
-source $ZSH/oh-my-zsh.sh
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -120,3 +112,9 @@ zsh-syntax-highlighting
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#fichier source pour tous mes aliases
+source ~/.config/zsh/aliases/aliases.zsh
+
+
+#fichier source pour oh-my-zsh
+source $ZSH/oh-my-zsh.sh
