@@ -1,17 +1,18 @@
 return {
 
-
-  -- add nord
-  { "shaunsingh/nord.nvim" },
-  -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
-
-  -- tokyonight
-  {
-    "folke/tokyonight.nvim",
-    lazy = true,
-    opts = { style = "moon" },
-  },
+  { "LazyVim/LazyVim", opts = { colorscheme = "catppuccin" } },
+  --
+  -- -- add nord
+  -- { "shaunsingh/nord.nvim" },
+  -- -- add gruvbox
+  -- { "ellisonleao/gruvbox.nvim" },
+  --
+  -- -- tokyonight
+  -- {
+  --   "folke/tokyonight.nvim",
+  --   lazy = true,
+  --   opts = { style = "moon" },
+  -- },
 
   -- catppuccin
   {
