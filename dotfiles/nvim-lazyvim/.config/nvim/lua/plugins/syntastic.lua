@@ -8,7 +8,7 @@ return {
     vim.g.syntastic_check_on_wq = 0
 
     -- Utiliser uniquement Norminette comme vérificateur
-    vim.g.syntastic_c_checkers = { "norminette", "gcc" }
-    vim.g.syntastic_cpp_checkers = { "norminette", "gcc" } -- Si vous travaillez avec C++
+    vim.g.syntastic_c_checkers = { "norminette"}
+    vim.g.syntastic_cpp_checkers = { "norminette"} -- Si vous travaillez avec C++
   end,
 }
