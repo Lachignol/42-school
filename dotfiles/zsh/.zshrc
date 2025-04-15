@@ -4,6 +4,7 @@
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="/home/ascordil/.local/bin:$PATH"
 
 
 # Set name of the theme to load --- if set to "random", it will
