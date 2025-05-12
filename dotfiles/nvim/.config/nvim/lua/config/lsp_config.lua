@@ -10,7 +10,7 @@ mason.setup()
 
 -- Configurer Mason-LSPConfig
 mason_lspconfig.setup({
-  ensure_installed = { "lua_ls","clangd" }, -- Liste des serveurs à installer automatiquement
+  ensure_installed = { "lua_ls", "clangd"}, -- Liste des serveurs à installer automatiquement
 })
 
 -- Fonction on_attach : pour définir les keymaps spécifiques au LSP

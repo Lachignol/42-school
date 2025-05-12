@@ -43,7 +43,7 @@ require("lazy").setup({
           dependencies = "williamboman/mason.nvim",
           config = function()
             require("mason-lspconfig").setup {
-              ensure_installed = { "gopls", "lua_ls", "pyright", "clangd" }, -- Liste des serveurs LSP à installer
+              ensure_installed = { "lua_ls", "clangd" }, -- Liste des serveurs LSP à installer
             }
           end
         },
@@ -88,4 +88,3 @@ require("lazy").setup({
         },
     },
 })
-
