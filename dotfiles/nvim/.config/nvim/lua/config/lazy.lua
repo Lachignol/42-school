@@ -38,8 +38,9 @@ require("lazy").setup({
         },
 
         -- Mason and Mason-LSPConfig
-        { "williamboman/mason.nvim" },
+        { "williamboman/mason.nvim" ,version = "^1.7.0",},
         { "williamboman/mason-lspconfig.nvim",
+	 version = "^1.0.0",
           dependencies = "williamboman/mason.nvim",
           config = function()
             require("mason-lspconfig").setup {
