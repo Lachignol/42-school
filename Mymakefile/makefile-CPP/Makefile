@@ -22,14 +22,15 @@ INCLUDES = $(addprefix -I, $(INC_DIR))
 SRC = $(shell find $(SRC_DIR) -name "*.cpp")
 
 # Objects
-OBJ = $(SRC:%.c=$(OBJ_DIR)/%.o)
+OBJ = $(SRC:%.cpp=$(OBJ_DIR)/%.o)
 
-$(OBJ_DIR)/%.o: %.c
+all: $(NAME)
+
+$(OBJ_DIR)/%.o: %.cpp
 	@mkdir -p $(OBJ_DIR)/$(dir $<)
 	@echo "$(BLUE)Compiling:$(RESET) $<"
 	@$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
 
-all: $(NAME)
 
 $(NAME): $(OBJ)
 	@echo "$(YELLOW)Linking $(NAME)...$(RESET)"
