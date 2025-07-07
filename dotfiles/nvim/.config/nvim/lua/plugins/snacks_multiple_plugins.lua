@@ -11,7 +11,7 @@ return {
       dashboard = { enabled = false },
 
       -- Explorateur de fichiers intégré (picker déguisé)
-      explorer = { enabled = true },
+      explorer = { enabled = false },
 
       -- Affiche des guides et scopes d’indentation visuels
       indent = { enabled = true },

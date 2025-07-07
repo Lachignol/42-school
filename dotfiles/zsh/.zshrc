@@ -13,7 +13,7 @@ export PATH="/home/ascordil/.local/bin:$PATH"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="lambda"
 
-# Permet l'utilisation de commande vim dans le terminal
+
 set -o vi
 
 
